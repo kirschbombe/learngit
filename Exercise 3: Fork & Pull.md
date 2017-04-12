@@ -3,7 +3,7 @@
 *We'll do this exercise in GitHub*
 
 1. Login to GitHub
-2. Create a new repository and share the URL with your partner - don't forget the Readme!
+2. Create a new repository and share the URL with your partner - don't forget the README file!
 3. Fork your partner's repo
 4. Let's make a few changes to our new forked repos (add files, edit files, etc.)
 5. Submit a pull request
