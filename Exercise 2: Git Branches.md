@@ -1,3 +1,6 @@
+### Exercise 2: Git Branches
+
+*We'll do this exercise on our local environment*
 
 1. Check to see which branch you are on: `git status`
 2. List all branches: `git branch`
