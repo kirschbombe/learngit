@@ -2,7 +2,9 @@
 
 The slides are available here: http://slides.com/kirschbombe/git-7/fullscreen
 
-If you want to use the Cloud9 IDE for this workshop, Git is preinstalled on these cloud-based Linux development environments. https://c9.io/
+You will need to install Git: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+
+If you want to use the Cloud9 IDE for this workshop, Git is preinstalled on these cloud-based Linux development environments. https://c9.io/ (signup is free, but requires a credit card)
 
 You will also need a GitHub account. You can get one here: https://github.com
 
