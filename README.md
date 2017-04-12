@@ -1,9 +1,8 @@
 # Intro to Git and GitHub
-2017 DH Infrastructure Symposium
 
-The slides are available here: http://dawnchildress.com/learngit/
+The slides are available here: http://slides.com/kirschbombe/git-7/fullscreen
 
-We will use the Cloud 9 IDE for our Git work. Git is preinstalled on these cloud-based Linux development environments. https://c9.io/
+If you want to use the Cloud9 IDE for this workshop, Git is preinstalled on these cloud-based Linux development environments. https://c9.io/
 
 You will also need a GitHub account. You can get one here: https://github.com
 
