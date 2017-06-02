@@ -33,3 +33,6 @@ You will also need a GitHub account. You can get one here: https://github.com
 * `git clone` : clone a remote repo to local
 * `git push` : pushes commits to remote repo
 * `git pull` : pull commits from remote repo
+
+### My favorite Git cheatsheet
+http://ndpsoftware.com/git-cheatsheet.html
