@@ -54,7 +54,7 @@ Git is a version control system that lets you track who made changes
     web browser (current versions of Chrome, Firefox or Safari,
     or Internet Explorer version 9 or above).
 
-    You will need an account at <a href="https://github.com/">github.com</a>
+You will need an account at <a href="https://github.com/">github.com</a>
     for the Git lesson. Basic GitHub accounts are free. We encourage
     you to create a GitHub account if you don't have one already.
     Please consider what personal information you'd like to reveal. For
