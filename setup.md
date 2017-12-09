@@ -1,7 +1,6 @@
 ## Setup
 
-  To participate in this workshop, you will need access to the software described below.
-  In addition, you will need an up-to-date web browser.
+To participate in this workshop, you will need access to the software described below (Bash shell, Github account, Git command line tool, you favorite text editor. Options for Mac, Linux, and Windows are outlined below. In addition, you will need an up-to-date web browser.
 
 ### The Bash Shell    
 
