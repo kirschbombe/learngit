@@ -6,7 +6,7 @@
   We maintain a list of common issues that occur during installation as a reference for instructors
   that may be useful on the
 
-## The Bash Shell    
+### The Bash Shell    
 
 Bash is a commonly-used shell that gives you the power to do simple tasks more quickly.
 
@@ -66,9 +66,7 @@ Bash is a commonly-used shell that gives you the power to do simple tasks more q
   </div>
 </div> <!-- End of 'shell' section. -->
 
-<div id="git"> <!-- Start of 'Git' section. GitHub browser compatability
-           is given at https://help.github.com/articles/supported-browsers/-->
-  <h3>Git</h3>
+### Git
   <p>
     Git is a version control system that lets you track who made changes
     to what when and has options for easily updating a shared or public
@@ -122,8 +120,7 @@ Bash is a commonly-used shell that gives you the power to do simple tasks more q
   </div>
 </div> <!-- End of 'Git' section. -->
 
-<div id="editor"> <!-- Start of 'editor' section. -->
-  <h3>Text Editor</h3>
+### Text Editor
 
   <p>
     When you're writing code, it's nice to have a text editor that is
