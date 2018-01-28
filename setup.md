@@ -35,7 +35,7 @@ The default shell is usually Bash, but if your machine is set up differently you
 ### Git and a GitHub account
 Git is a version control system that lets you track who made changes to what when and has options for easily updating a shared or public version of your code on https://github.com/. You will need a [supported](https://help.github.com/articles/supported-browsers/) web browser (current versions of Chrome, Firefox or Safari, or Internet Explorer version 9 or above).
 
-You will need an account at <a href="https://github.com/">github.com</a> for the Git lesson. Basic GitHub accounts are free. We encourage you to create a GitHub account if you don't have one already. Please consider what personal information you'd like to reveal. For example, you may want to review these <a href="https://help.github.com/articles/keeping-your-email-address-private/">instructions for keeping your email address private</a> provided at GitHub.
+You will need an account at https://github.com/ for this workshop. Basic GitHub accounts are free. We encourage you to create a GitHub account if you don't have one already. Please consider what personal information you'd like to reveal. For example, you may want to review these [instructions for keeping your email address private](https://help.github.com/articles/keeping-your-email-address-private/) provided at GitHub.
 
 #### Windows
 Git should be installed on your computer as part of your Babun Windows shell install (described above).
@@ -44,7 +44,7 @@ Git should be installed on your computer as part of your Babun Windows shell ins
 Git should already be installed on most Mac and Linux machines. Here are instructions for verifying that it is installed and for installing/updating: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
 ### Text Editor
-When you're writing code, it's nice to have a text editor that is optimized for writing code, with features like automatic color-coding of key words. The default text editor on Mac OS X and Linux is usually set to Vim, which is not famous for being intuitive.  if you accidentally find yourself stuck in it, try typing the escape key, followed by <code>:q!</code> (colon, lower-case 'q', exclamation mark), then hitting Return to return to the shell.
+When you're writing code, it's nice to have a text editor that is optimized for writing code, with features like automatic color-coding of key words. The default text editor on Mac OS X and Linux is usually set to Vim, which is not famous for being intuitive.  if you accidentally find yourself stuck in it, try typing the escape key, followed by `:q!` (colon, lower-case 'q', exclamation mark), then hitting Return to return to the shell.
 
 **nano** is a basic editor and the default that instructors use in the workshop. It is pre-installed in the Babun Windows shell (described above) and on Mac/Linux machines.
 
