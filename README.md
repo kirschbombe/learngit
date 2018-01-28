@@ -1,5 +1,4 @@
 # Intro to Git and GitHub
-2017 DH Infrastructure Symposium
 
 The slides are available here: http://slides.com/kirschbombe/git-7/fullscreen
 
