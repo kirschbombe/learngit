@@ -43,7 +43,7 @@
 </html>
 ```
 
-3. Now go to your repo **Settings** tab
+3. Commit your changes, then go to your repo **Settings** tab
 4. Scroll down until you reach the **GitHub Pages** section
 5. Under Source, choose the "master branch /docs folder" option, and click on the **Save** button
 6. You should see a blue box with the text "Your site is ready to be published at..." + a URL - you'll want to refresh the page until the box is green and says "Your site is published at..."
