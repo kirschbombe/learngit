@@ -2,6 +2,7 @@
 
 The slides are available here: http://slides.com/kirschbombe/git-7/fullscreen
 
+Setup instructions here: https://github.com/kirschbombe/learngit/blob/master/setup.md
 You will also need a GitHub account. You can get one here: https://github.com
 
 ### Bash commands we'll use
