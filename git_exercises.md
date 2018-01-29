@@ -41,7 +41,7 @@ Make sure everything was entered correctly by typing `git config --list`
 ~~~{.output}
 user.name=Dawn Childress
 user.email=kirschbombe@gmail.com
-core.editor=atom
+core.editor=nano
 ~~~
 
 ### A new Git repository
@@ -72,12 +72,57 @@ $ pwd
 /Users/kirschbombe/oceans
 ```
 
-4. Right now there is nothing (except our .git file) in our directory, so let's create a new file named `pacific.txt` using the `touch` command
+4. Right now there is nothing (except our .git file) in our directory, so let's create a new file named `mammals.txt` using the `touch` command and edit the file using `nano`
 ```bash
-$ touch pacific.txt
+$ touch mammals.txt
 $ ls
-pacific.txt
+mammals.txt
+$ nano mammals.txt
 ```
+This will open the file in nano. Let's add some content to our file:
+```
+dolphins
+whales
+seals
+```
+Use `CTRL + O` to write, and `CTRL + X` to exit.
+
+Now let's see what git is up to with `git status`
+
+~~~bash
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	mammals.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+~~~
+
+Here, git is telling you that there are local files that you haven't told git to look at. Let's tell git to add our changes to the staging area using `git add`
+
+~~~
+$ git add mammals.txt
+~~~
+
+Now, when we run `git status`, git tells us that we've told it to keep track of a new file
+
+~~~bash
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   mammals.txt
+~~~
+
+If this was a mistake, we could correct it with `git rm`
 
 5. 
 Stage your changes:  git add . or git add [filename]
