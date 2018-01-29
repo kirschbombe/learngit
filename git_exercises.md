@@ -1,8 +1,52 @@
 ## Git exercises
 
+### Configuring Git
+We do this by setting a couple of options in a file found in your home directory
+
+```bash
+git config --global user.name "Firstname Lastname"
+git config --global user.email username@company.extension
+```
+
+Your name and email address is included in every change that you make, so it's easy to keep track of who did what
+
+Also, unless you are a vimwizard, I would recommend changing your default editor to nano
+
+```bash
+git config --global core.editor nano
+```
+
+If you have a different favorite editor, you can type in the appropriate
+command from the table below:
+
+| Editor             | Configuration command                            |
+|:-------------------|:-------------------------------------------------|
+|Atom | `$ git config --global core.editor "atom --wait"`|
+| nano               | `$ git config --global core.editor "nano -w"`    |
+| Text Wrangler      | `$ git config --global core.editor "edit -w"`    |
+| Sublime Text (Mac) | `$ git config --global core.editor "subl -n -w"` |
+| Sublime Text (Win, 32-bit install) | `$ git config --global core.editor
+"'c:/program files (x86)/sublime text 3/sublime_text.exe' -w"` |
+| Sublime Text (Win, 64-bit install) | `$ git config --global core.editor
+"'c:/program files/sublime text 3/sublime_text.exe' -w"` |
+| Notepad++ (Win)    | `$ git config --global core.editor "'c:/program files
+(x86)/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"`|
+| Kate (Linux)       | `$ git config --global core.editor "kate"`       |
+| Gedit (Linux)      | `$ git config --global core.editor "gedit -s -w"`   |
+| emacs              | `$ git config --global core.editor "emacs"`   |
+| vim                | `$ git config --global core.editor "vim"`   |
+
+Make sure everything was entered correctly by typing `git config --list`
+
+~~~{.output}
+user.name=Dillon Niederhut
+user.email=dillon.niederhut@gmail.com
+core.editor=nano
+~~~
+
 ### A new Git repository
 
-In your Bash shell (Terminal, Babun), verify that you are in your Home directory using the `pwd` command (print working directory)
+First, verify that you are in your Home directory using the `pwd` command (print working directory)
 ```bash
 $ pwd
 /Users/kirschbombe
