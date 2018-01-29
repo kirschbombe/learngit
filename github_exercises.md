@@ -28,8 +28,21 @@
 ### A simple website with GitHub Pages
 
 1. Go to the top-level of your GitHub repo and create a new folder/file called `docs/index.html`
-2. Add some html to the new file, something like this: <script src="https://gist.github.com/kirschbombe/60128012bb30638c1ce5b5e56ada6cc5.js"></script>
-    --then commit your changes
+2. Add some html to the new file, something like this:
+
+```
+<html>
+  <head>
+    <title>Hello, World</title>
+  </head>
+  <body>
+    <h1>Hello, World</h1>
+    <img src="https://cdn.dribbble.com/users/983703/screenshots/2852241/hello-dribble.gif">
+    <p>This is my project homepage.</p>
+  </body>
+</html>
+```
+
 3. Now go to your repo **Settings** tab
 4. Scroll down until you reach the **GitHub Pages** section
 5. Under Source, choose the "master branch /docs folder" option, and click on the **Save** button
