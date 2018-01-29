@@ -39,9 +39,9 @@ command from the table below:
 Make sure everything was entered correctly by typing `git config --list`
 
 ~~~{.output}
-user.name=Dillon Niederhut
-user.email=dillon.niederhut@gmail.com
-core.editor=nano
+user.name=Dawn Childress
+user.email=kirschbombe@gmail.com
+core.editor=atom
 ~~~
 
 ### A new Git repository
