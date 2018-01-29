@@ -1,4 +1,4 @@
-## Hands-on with GitHub
+## GitHub exercises
 
 ### Create a new repository
 
