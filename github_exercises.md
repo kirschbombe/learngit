@@ -30,7 +30,7 @@
 1. Go to the top-level of your GitHub repo and create a new folder/file called `docs/index.html`
 2. Add some html to the new file, something like this:
 
-```
+```html
 <html>
   <head>
     <title>Hello, World</title>
