@@ -124,8 +124,30 @@ Changes to be committed:
 
 If this was a mistake, we could correct it with `git rm`
 
-5. 
-Stage your changes:  git add . or git add [filename]
-Commit your changes:  git commit -m "commit message"
-Repeat 3-5
-View your commit history: git log
+5. Now we're ready to `commit` this file. Committing changes means making a permanent record of the current state of your repository.
+
+~~~bash
+$ git commit -m "add mammals.txt"
+[master (root-commit) 579efa2] add mammals.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 mammals.txt
+~~~
+
+We use the `-m` flag followed by a **commit message** when we make a commit. Every commit needs a message to accompany it. It should be as brief as possible while still describing what changes you made.
+
+> Making a whole bunch of changes and committing them all at once is *BAD*. If you make many commits for many small changes, and one of those changes breaks your code, you can *selectively undo* that change and fix the bug. If you make only one commit, you'll have to re-do everything from scratch :(
+
+It takes a while to get a hang of this, and it helps to read other people's commits to know what to say
+
+6. Take a few minutes to make some changes to your mammals.txt file and add a new file to your folder. Then add the changes to the staging area and commit your changes following the steps you just took in 4-5.
+
+7. To view your commit history, use the command `git log`
+```bash
+$ git log
+commit 579efa22f5e5f2c76dfcf04279b484408b52b22a (HEAD -> master)
+Author: Dawn Childress <kirschbombe@gmail.com>
+Date:   Sun Jan 28 20:36:38 2018 -0800
+
+    add mammals.txt
+```
+
