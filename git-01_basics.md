@@ -1,7 +1,16 @@
 ## Git exercises
 
 ### Configuring Git
-We do this by setting a couple of options in a file found in your home directory
+
+First, let's verify that Git is installed by typing the `git` command (then hit enter)
+
+```bash
+git
+```
+
+This should print out usage and common Git commands. If you get something else, then you probably didn't do the pre-class setup! You can follow the instructions for installing Git here: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+
+Now that we've verified Git is installed, let's set up a couple of options in a file found in your home directory
 
 ```bash
 git config --global user.name "Firstname Lastname"
@@ -10,14 +19,9 @@ git config --global user.email username@company.extension
 
 Your name and email address is included in every change that you make, so it's easy to keep track of who did what
 
-Also, unless you are a vimwizard, I would recommend changing your default editor to nano
+Also, unless you are a vimwizard, I would recommend changing your default editor to nano or your favorite text editor
 
-```bash
-git config --global core.editor nano
-```
-
-If you have a different favorite editor, you can type in the appropriate
-command from the table below:
+If you have a favorite editor, you can type in the appropriate command from the table below:
 
 | Editor             | Configuration command                            |
 |:-------------------|:-------------------------------------------------|
