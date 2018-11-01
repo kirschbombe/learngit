@@ -18,7 +18,7 @@ To set your Babun HOME directory to `C:\Users\[username]`, follow these steps:
 * From your Babun shell, execute `rundll32 sysdm.cpl,EditEnvironmentVariables` or search in the Start menu for `env` and select "Select Edit environment variables for your account”
 * Select “New”
     * Name: HOME
-    * Value: C:\Users\[username]
+    * Value: `C:\Users\[username]`
     * Click on “OK”
 * Click on “OK” again
 * In Babun, run `babun install`
