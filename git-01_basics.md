@@ -141,7 +141,7 @@ We use the `-m` flag followed by a **commit message** when we make a commit. Eve
 
 > Making a whole bunch of changes and committing them all at once is *BAD*. If you make many commits for many small changes, and one of those changes breaks your code, you can *selectively undo* that change and fix the bug. If you make only one commit, you'll have to re-do everything from scratch :(
 
-It takes a while to get a hang of this, and it helps to read other people's commits to know what to say
+It takes a while to get the hang of this, and it helps to read other people's commits to know what to say
 
 6. Take a few minutes to make some changes to your mammals.txt file and add a new file to your folder. Then add the changes to the staging area and commit your changes following the steps you just took in 4-5.
 
