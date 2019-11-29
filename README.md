@@ -1,6 +1,6 @@
 ## Intro to Git and GitHub
 
-* The slides are available here: http://slides.com/kirschbombe/git-7/fullscreen
+* The slides are available here: http://slides.com/kirschbombe/learngit/fullscreen
 * Setup instructions here: https://github.com/kirschbombe/learngit/blob/master/setup.md
 * You will also need a GitHub account. You can get one here: https://github.com
 
