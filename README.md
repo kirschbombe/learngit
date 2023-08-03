@@ -7,6 +7,8 @@
 #### Bash commands we'll use
 * `cd` : change directory
 * `cd ..` : move up to the parent directory
+* `ls` : list directory contents
+* `ls > list.csv` : print directory contents to a CSV named `list.csv`
 * `touch` : create new file here
 * `pwd` : print working directory
 * `cat` : "concatenate", used to print the contents of a file
